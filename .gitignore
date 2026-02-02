@@ -1,18 +1,23 @@
-# Runtime data
-jigar-notes.log
-*.log
-
-# Screenshots (large files)
-*.png
-*.jpg
-
-# Sensitive data (keep templates but not actual data)
-# jigar-tasks.json  # Keep this for persistence
-# cron-jobs.json    # Keep this for persistence
-
-# Node
+# Dependencies
 node_modules/
 
-# OS
+# Logs
+*.log
+logs/
+
+# Runtime data (keep in data/ but ignore sensitive items)
+data/*.log
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/

@@ -1,0 +1,155 @@
+{
+  "lastUpdated": "2026-02-02T06:08:00Z",
+  "jobs": [
+    {
+      "id": "dfe0eeb9-3aa6-460e-8c7b-a2dd61ea5a4b",
+      "name": "Sina 5AM Wake-Up Call",
+      "enabled": true,
+      "schedule": "55 4 * * *",
+      "nextRun": "2026-02-03T04:55:00Z",
+      "lastRun": "2026-02-02T04:55:00Z",
+      "lastStatus": "ok",
+      "description": "Morning motivation message at 4:55 AM. Includes today's Todoist tasks, a reminder of your achievements (Global Talent Visa, PhD journey), ML tip of the day, and a quick win suggestion to start the day strong."
+    },
+    {
+      "id": "2f6f8042-b437-485c-badb-1333fa755e89",
+      "name": "Clawdbot X Digest",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "nextRun": "2026-02-02T07:00:00Z",
+      "lastRun": "2026-02-01T07:00:00Z",
+      "lastStatus": "ok",
+      "description": "Daily summary of Clawdbot mentions on X/Twitter. Searches for posts about Clawdbot, Moltbot, and OpenClaw, organizes by category, and suggests post ideas for you to engage with the community."
+    },
+    {
+      "id": "a9a26c70-3033-4748-9541-36bd666a3cb8",
+      "name": "ML Research Updates",
+      "enabled": true,
+      "schedule": "0 9 * * 1,4",
+      "nextRun": "2026-02-02T09:00:00Z",
+      "lastRun": "2026-01-29T09:00:00Z",
+      "lastStatus": "ok",
+      "description": "Bi-weekly (Monday & Thursday) scan of latest ML/deep learning papers. Focuses on PyTorch, LSTM, TCN, time series forecasting - topics relevant to your water engineering ML work. Extracts key insights and explains why they matter for CSO prediction."
+    },
+    {
+      "id": "b311d9d6-ab4c-41cd-8a62-85ae7a22d542",
+      "name": "Weekly Security Audit",
+      "enabled": true,
+      "schedule": "0 14 * * 1",
+      "nextRun": "2026-02-02T14:00:00Z",
+      "lastRun": null,
+      "lastStatus": null,
+      "description": "Monday 2 PM security check. Scans for open ports, failed SSH logins, file permission issues, and potential API key exposures. Reports findings by risk level (Critical/High/Medium/Low) with recommended fixes."
+    },
+    {
+      "id": "59c8a319-77ab-4bc9-b510-319414896f8b",
+      "name": "Gym Accountability",
+      "enabled": true,
+      "schedule": "0 17 * * 1,3,5",
+      "nextRun": "2026-02-02T17:00:00Z",
+      "lastRun": null,
+      "lastStatus": null,
+      "description": "Monday/Wednesday/Friday at 5 PM - gym reminder. Checks Todoist for workout plan, suggests a routine if none exists, and asks you to confirm when done. Pushes harder if you've missed gym sessions that week."
+    },
+    {
+      "id": "2765ae5d-0195-43c3-945e-eeaea6b629ce",
+      "name": "Bedtime Reminder",
+      "enabled": true,
+      "schedule": "30 21 * * *",
+      "nextRun": "2026-02-02T21:30:00Z",
+      "lastRun": "2026-02-01T21:30:00Z",
+      "lastStatus": "ok",
+      "description": "9:30 PM wind-down reminder. Reviews what you completed today vs what's still open in Todoist. Lists tomorrow's top 3 priorities so you wake up with a clear plan. Encourages quality sleep for the 5 AM wake-up."
+    },
+    {
+      "id": "bf84684a-b6b7-414b-8afe-76ee6189f1d3",
+      "name": "Nightly Build",
+      "enabled": true,
+      "schedule": "0 3 * * *",
+      "nextRun": "2026-02-03T03:00:00Z",
+      "lastRun": "2026-02-02T03:00:00Z",
+      "lastStatus": "ok",
+      "description": "3 AM innovation time. While you sleep, I build something new and surprising - tools, visualizations, automations. Picks from the IDEAS.md backlog, builds it, commits to repo, and delivers it when you wake up. Goal: make you smile every morning."
+    },
+    {
+      "id": "79bea157-1dca-477b-a78c-8b372e5f3159",
+      "name": "Scholar Paper Downloader",
+      "enabled": true,
+      "schedule": "0 10 */2 * *",
+      "nextRun": "2026-02-02T10:00:00Z",
+      "lastRun": "2026-01-31T10:00:00Z",
+      "lastStatus": "ok",
+      "description": "Every 2 days at 10 AM. Checks Google Scholar alert emails for new papers from Water Research and Journal of Hydrology. Downloads open-access PDFs automatically and sends you a summary of what's new in your field."
+    },
+    {
+      "id": "d956ff2e-f13f-43b4-b183-6c2d935969e6",
+      "name": "AI Trending News",
+      "enabled": true,
+      "schedule": "0 10 */2 * *",
+      "nextRun": "2026-02-02T10:00:00Z",
+      "lastRun": "2026-01-31T10:00:00Z",
+      "lastStatus": "ok",
+      "description": "Every 2 days at 10 AM. Collects trending AI/ML news from key accounts (@karpathy, @OpenAI, @AnthropicAI, etc.). Filters for last 48 hours only. Organizes into categories: breaking news, new tools, research highlights, learning resources."
+    },
+    {
+      "id": "32be23fd-3c11-4303-8ee4-afe0653ee963",
+      "name": "Coin Bureau Checker",
+      "enabled": true,
+      "schedule": "0 12 */3 * *",
+      "nextRun": "2026-02-04T12:00:00Z",
+      "lastRun": "2026-02-01T12:00:00Z",
+      "lastStatus": "ok",
+      "description": "Every 3 days at noon. Checks Coin Bureau YouTube channel for new videos. If a new video is found, creates a 2-3 paragraph summary of key crypto/finance insights and sends it to you. Avoids duplicate summaries."
+    },
+    {
+      "id": "ed948746-9691-4cee-ad0b-5abdfb7788eb",
+      "name": "Midweek Confidence Boost",
+      "enabled": true,
+      "schedule": "0 12 * * 3",
+      "nextRun": "2026-02-04T12:00:00Z",
+      "lastRun": null,
+      "lastStatus": null,
+      "description": "Wednesday noon check-in. Not about tasks - about YOU. Reminds you of your journey (PhD, Global Talent Visa, 36 papers). Asks about wins this week, what's blocking you, and your energy level. Support-focused, not task-focused."
+    },
+    {
+      "id": "bf575c47-ccb0-4ba6-b4c9-003a9ec25b53",
+      "name": "Friday Happiness Check",
+      "enabled": true,
+      "schedule": "0 18 * * 5",
+      "nextRun": "2026-02-06T18:00:00Z",
+      "lastRun": null,
+      "lastStatus": null,
+      "description": "Friday 6 PM emotional check-in. Asks how your week was (1-10), what made you smile, what drained you. Uses the 'Three Good Things' exercise. Weekend planning - rest if exhausted, gentle nudge if energized. About happiness, not hustle."
+    },
+    {
+      "id": "a065308a-9a86-4a78-a450-308389401524",
+      "name": "Weekend Contract Hunt",
+      "enabled": true,
+      "schedule": "0 9 * * 6",
+      "nextRun": "2026-02-07T09:00:00Z",
+      "lastRun": null,
+      "lastStatus": null,
+      "description": "Saturday 9 AM job search. Scans Upwork, LinkedIn Jobs, and Indeed UK for AI automation, Python, and ML contracts. Filters for remote/part-time suitable for side work. Sends you 3-5 best matches with pitch suggestions and direct apply links."
+    },
+    {
+      "id": "623afb8e-bd44-4ebf-9f60-74f58028f3b3",
+      "name": "Sunday Week Planning",
+      "enabled": true,
+      "schedule": "0 19 * * 0",
+      "nextRun": "2026-02-08T19:00:00Z",
+      "lastRun": "2026-02-01T19:00:00Z",
+      "lastStatus": "ok",
+      "description": "Sunday 7 PM planning session. Reviews last week (Todoist completion, gym, wake-ups, contract applications). Sets 3 priority goals for the new week. Shares a science-backed productivity tip. Prepares you to start Monday strong."
+    },
+    {
+      "id": "0f50558e-4433-4000-9ab7-11be817366ec",
+      "name": "ML Weekly Deep-Dive",
+      "enabled": true,
+      "schedule": "0 20 * * 0",
+      "nextRun": "2026-02-08T20:00:00Z",
+      "lastRun": "2026-02-01T20:00:00Z",
+      "lastStatus": "ok",
+      "description": "Sunday 8 PM learning session. Points you to this week's ML concept in the ml-mastery folder. Simplified explanations with code examples from water engineering context. One concept per week - consistent learning without overwhelm."
+    }
+  ]
+}

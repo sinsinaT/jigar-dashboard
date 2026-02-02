@@ -5,7 +5,9 @@ const url = require('url');
 
 const PORT = process.env.PORT || 18800;
 const WORKSPACE = '/root/claw';
-const TASKS_FILE = path.join(__dirname, 'jigar-tasks.json');
+const DATA_DIR = path.join(__dirname, '..', 'data');
+const PUBLIC_DIR = path.join(__dirname, '..', 'public');
+const TASKS_FILE = path.join(DATA_DIR, 'tasks.json');
 
 // Initialize tasks file
 if (!fs.existsSync(TASKS_FILE)) {
@@ -25,7 +27,7 @@ let botStatus = {
 };
 
 // Status file for Clawdbot integration
-const STATUS_FILE = path.join(__dirname, 'jigar-status.json');
+const STATUS_FILE = path.join(DATA_DIR, 'status.json');
 
 function updateStatus(working, task = null) {
   botStatus.isWorking = working;
@@ -103,7 +105,7 @@ const server = http.createServer((req, res) => {
   
   // Serve dashboard
   if (pathname === '/' || pathname === '/index.html') {
-    const html = fs.readFileSync(path.join(__dirname, 'jigar-dashboard.html'), 'utf8');
+    const html = fs.readFileSync(path.join(PUBLIC_DIR, 'index.html'), 'utf8');
     res.writeHead(200, { 
       'Content-Type': 'text/html',
       'Cache-Control': 'no-cache, no-store, must-revalidate',
@@ -280,7 +282,7 @@ const server = http.createServer((req, res) => {
         console.log('Video callback received:', JSON.stringify(callback, null, 2));
         
         // Save callback to file
-        const callbackFile = path.join(__dirname, 'video-callbacks.json');
+        const callbackFile = path.join(DATA_DIR, 'video-callbacks.json');
         let callbacks = [];
         if (fs.existsSync(callbackFile)) {
           callbacks = JSON.parse(fs.readFileSync(callbackFile, 'utf8'));
@@ -320,7 +322,7 @@ const server = http.createServer((req, res) => {
   
   // API: Get video callbacks
   if (pathname === '/api/video-callbacks' && req.method === 'GET') {
-    const callbackFile = path.join(__dirname, 'video-callbacks.json');
+    const callbackFile = path.join(DATA_DIR, 'video-callbacks.json');
     if (fs.existsSync(callbackFile)) {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(fs.readFileSync(callbackFile, 'utf8'));
@@ -333,7 +335,7 @@ const server = http.createServer((req, res) => {
   
   // API: Get cron jobs
   if (pathname === '/api/cron-jobs' && req.method === 'GET') {
-    const cronFile = path.join(__dirname, 'cron-jobs.json');
+    const cronFile = path.join(DATA_DIR, 'cron-jobs.json');
     if (fs.existsSync(cronFile)) {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(fs.readFileSync(cronFile, 'utf8'));

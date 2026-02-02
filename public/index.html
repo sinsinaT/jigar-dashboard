@@ -1648,6 +1648,12 @@
               </div>
             </div>
             
+            ${job.description ? `
+              <div class="cron-job-description">
+                ${job.description}
+              </div>
+            ` : ''}
+            
             <div class="cron-job-meta">
               ${lastRunDate ? `
                 <div class="cron-job-meta-item">

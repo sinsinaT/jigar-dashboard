@@ -1,0 +1,23 @@
+{
+  "name": "jigar-dashboard",
+  "version": "1.1.0",
+  "description": "🤓 Personal productivity dashboard for Clawdbot/Jigar AI assistant",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "dashboard",
+    "productivity",
+    "kanban",
+    "clawdbot",
+    "ai-assistant"
+  ],
+  "author": "Sina Hesarkazzazi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinsinaT/jigar-dashboard.git"
+  }
+}
