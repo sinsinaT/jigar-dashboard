@@ -1,0 +1,95 @@
+{
+  "todo": [
+    {
+      "id": 1770011994637,
+      "title": "Add post to Linkedin",
+      "notes": "Seach and post to linkedin with my account in water engineering",
+      "priority": "medium",
+      "created": "2026-02-02"
+    },
+    {
+      "id": 1769859040840.4817,
+      "title": "Flight & hotel research",
+      "notes": "Málaga/Barcelona options",
+      "priority": "low",
+      "created": "2026-01-28"
+    }
+  ],
+  "progress": [
+    {
+      "id": 1706698800001,
+      "title": "Connect Google Scholar alerts",
+      "notes": "Set up alerts for Water Research and Journal of Hydrology",
+      "priority": "medium",
+      "created": "2026-01-31"
+    },
+    {
+      "id": 1769859040792.3567,
+      "title": "📱 X Content Automation",
+      "notes": "X API ready ✅ | kie.ai ready ✅ | Building posting workflow",
+      "priority": "high",
+      "created": "2026-01-30"
+    },
+    {
+      "id": 1769859040332.5923,
+      "title": "🌊 Pump-Inflow ML Model",
+      "notes": "LSTM/TCN for CSO prediction | NLL vs MSE lesson",
+      "priority": "high",
+      "created": "2026-01-28"
+    },
+    {
+      "id": 1706698800003,
+      "title": "WaterTech Hub Business Plan",
+      "notes": "Complete business plan with all sections",
+      "priority": "high",
+      "created": "2026-01-30"
+    }
+  ],
+  "done": [],
+  "archive": [
+    {
+      "id": 1769859040887.5454,
+      "title": "Configure Clawdbot",
+      "notes": "",
+      "priority": "medium",
+      "created": "2026-01-25"
+    },
+    {
+      "id": 1769859040614.7983,
+      "title": "Fix n8n AI Video → YouTube automation",
+      "notes": "Workflow deployed & tested ✅",
+      "priority": "high",
+      "created": "2026-01-28"
+    },
+    {
+      "id": 1706698800002,
+      "title": "Build Jigar Dashboard",
+      "notes": "New kanban with status indicator, docs, notes",
+      "priority": "high",
+      "created": "2026-01-31"
+    },
+    {
+      "id": 1769859040543.8293,
+      "title": "🎬 AI Viral Video Scenarios",
+      "notes": "15 scenarios + n8n automation → YouTube | Running every 8h",
+      "priority": "medium",
+      "created": "2026-01-28"
+    }
+  ],
+  "ideas": [
+    {
+      "id": 1769859040601.8826,
+      "title": "Creating Unique Dating App",
+      "notes": "Concept to explore - unique angle TBD",
+      "priority": "medium",
+      "created": "2026-01-28"
+    },
+    {
+      "id": 1769859040435.6204,
+      "title": "🪙 Create Cryptocurrency Token",
+      "notes": "Token creation project - blockchain TBD (Solana/ETH/Base)",
+      "priority": "medium",
+      "created": "2026-01-29"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "lastUpdated": "2026-02-01T07:45:00Z",
+  "totalScenarios": 25,
+  "source": "/root/claw/projects/ai-video-scenarios/SCENARIOS.md",
+  "n8nWorkflow": "/root/claw/projects/ai-video-scenarios/n8n-workflow-modified.json",
+  "categories": [
+    {"name": "Bodycam Comedy", "count": 6, "viralScore": 5},
+    {"name": "Animal Comedy", "count": 5, "viralScore": 5},
+    {"name": "Character Mashups", "count": 5, "viralScore": 5},
+    {"name": "Retro Nostalgia", "count": 3, "viralScore": 4},
+    {"name": "Satisfying/ASMR", "count": 3, "viralScore": 5},
+    {"name": "Absurd Comedy", "count": 3, "viralScore": 4}
+  ],
+  "topPerformers": [
+    {"title": "Squirrels on Trampoline", "provenViews": "7M+"},
+    {"title": "SpongeBob Breaking Bad", "provenViews": "Millions"},
+    {"title": "Mario Traffic Stop", "provenViews": "2.3M+"},
+    {"title": "Raccoon Wedding", "provenViews": "203M format"}
+  ],
+  "status": "ready",
+  "webhook": "https://n8n.srv1280124.hstgr.cloud/webhook/de7b90bd-4526-4a03-99a7-eab27a1f0cd2"
+}

@@ -1,0 +1,99 @@
+{
+  "columns": [
+    {
+      "id": "ideas",
+      "title": "💡 Ideas",
+      "tasks": [
+        {"id": "idea-1", "title": "Creating Unique Dating App", "created": "2026-01-28", "notes": "Concept to explore - unique angle TBD"},
+        {"id": "idea-2", "title": "🪙 Create Cryptocurrency Token", "created": "2026-01-29", "notes": "Token creation project - blockchain TBD (Solana/ETH/Base)"}
+      ]
+    },
+    {
+      "id": "todo",
+      "title": "📋 To Do",
+      "tasks": [
+        {"id": "1", "title": "Book Spain/Portugal trip", "created": "2026-01-28"},
+        {"id": "2", "title": "Connect Google Drive", "created": "2026-01-28"}
+      ]
+    },
+    {
+      "id": "inprogress",
+      "title": "🔄 In Progress",
+      "tasks": [
+        {"id": "10", "title": "📱 X Content Automation", "created": "2026-01-30", "notes": "X API ready ✅ | kie.ai ready ✅ | Building posting workflow", "priority": "high"},
+        {"id": "9", "title": "🌊 Pump-Inflow ML Model", "created": "2026-01-28", "notes": "LSTM/TCN for CSO prediction | NLL vs MSE lesson", "priority": "high"},
+        {"id": "3", "title": "Flight & hotel research", "created": "2026-01-28", "notes": "Málaga/Barcelona options"}
+      ]
+    },
+    {
+      "id": "done",
+      "title": "✅ Done",
+      "tasks": [
+        {"id": "7", "title": "Set up X API credentials", "created": "2026-01-28", "completed": "2026-01-30", "notes": "OAuth 1.0a + OAuth 2.0 configured ✅"},
+        {"id": "8", "title": "🎬 AI Viral Video Scenarios", "created": "2026-01-28", "completed": "2026-01-29", "notes": "15 scenarios + n8n automation → YouTube | Running every 8h"},
+        {"id": "6", "title": "Fix n8n AI Video → YouTube automation", "created": "2026-01-28", "completed": "2026-01-29", "notes": "Workflow deployed & tested ✅"},
+        {"id": "4", "title": "Set up cron jobs", "created": "2026-01-26"},
+        {"id": "5", "title": "Configure Clawdbot", "created": "2026-01-25"}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "x-content",
+      "name": "X Content Automation",
+      "icon": "📱",
+      "path": "/root/claw/projects/x-content-automation",
+      "description": "Automated posting + AI images (Nano Banana Pro) for X",
+      "status": "active"
+    },
+    {
+      "id": "ai-video",
+      "name": "AI Viral Video Scenarios",
+      "icon": "🎬",
+      "path": "/root/claw/projects/ai-video-scenarios",
+      "description": "15 Sora prompts + n8n automation. COMPLETE ✅",
+      "status": "complete"
+    },
+    {
+      "id": "pump-inflow",
+      "name": "Pump-Inflow Project",
+      "icon": "🌊",
+      "path": "/root/clawd/pump-inflow-project",
+      "description": "LSTM/TCN models for CSO water level prediction.",
+      "status": "active"
+    },
+    {
+      "id": "sina-career",
+      "name": "Sina Career",
+      "icon": "💼",
+      "path": "/root/clawd/projects/sina-career",
+      "description": "CV preparation, job applications, IR35 strategy.",
+      "status": "active"
+    },
+    {
+      "id": "digital-hub",
+      "name": "Digital Hub",
+      "icon": "🌐",
+      "path": "/root/clawd/projects/digital-hub",
+      "description": "Digital presence and portfolio development.",
+      "status": "active"
+    },
+    {
+      "id": "ml-mastery",
+      "name": "ML Mastery",
+      "icon": "🧠",
+      "path": "/root/clawd/ml-mastery",
+      "description": "Deep learning curriculum: PyTorch, LSTM, etc.",
+      "status": "active"
+    },
+    {
+      "id": "health-kb",
+      "name": "Health Knowledge Base",
+      "icon": "🏥",
+      "path": "/root/clawd/health-knowledge-base",
+      "description": "Personal health information database.",
+      "status": "paused"
+    }
+  ],
+  "lastUpdated": "2026-01-30T06:21:00Z"
+}

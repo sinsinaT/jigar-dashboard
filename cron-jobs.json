@@ -1,0 +1,130 @@
+{
+  "lastUpdated": "2026-02-02T06:10:00Z",
+  "jobs": [
+    {
+      "id": "dfe0eeb9-3aa6-460e-8c7b-a2dd61ea5a4b",
+      "name": "Sina 5AM Wake-Up Call",
+      "enabled": true,
+      "schedule": "55 4 * * *",
+      "nextRun": "2026-02-03T04:55:00Z",
+      "lastRun": "2026-02-02T04:55:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "2f6f8042-b437-485c-badb-1333fa755e89",
+      "name": "Clawdbot X Digest",
+      "enabled": true,
+      "schedule": "0 7 * * *",
+      "nextRun": "2026-02-02T07:00:00Z",
+      "lastRun": "2026-02-01T07:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "a9a26c70-3033-4748-9541-36bd666a3cb8",
+      "name": "ML Research Updates (Bi-weekly)",
+      "enabled": true,
+      "schedule": "0 9 * * 1,4",
+      "nextRun": "2026-02-02T09:00:00Z",
+      "lastRun": "2026-01-29T09:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b311d9d6-ab4c-41cd-8a62-85ae7a22d542",
+      "name": "Weekly Security Audit",
+      "enabled": true,
+      "schedule": "0 14 * * 1",
+      "nextRun": "2026-02-02T14:00:00Z"
+    },
+    {
+      "id": "59c8a319-77ab-4bc9-b510-319414896f8b",
+      "name": "Gym Accountability Check",
+      "enabled": true,
+      "schedule": "0 17 * * 1,3,5",
+      "nextRun": "2026-02-02T17:00:00Z"
+    },
+    {
+      "id": "2765ae5d-0195-43c3-945e-eeaea6b629ce",
+      "name": "Sina 9:30PM Bedtime Reminder",
+      "enabled": true,
+      "schedule": "30 21 * * *",
+      "nextRun": "2026-02-02T21:30:00Z",
+      "lastRun": "2026-02-01T21:30:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "bf84684a-b6b7-414b-8afe-76ee6189f1d3",
+      "name": "Nightly Build - Surprise Innovation",
+      "enabled": true,
+      "schedule": "0 3 * * *",
+      "nextRun": "2026-02-03T03:00:00Z",
+      "lastRun": "2026-02-02T03:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "79bea157-1dca-477b-a78c-8b372e5f3159",
+      "name": "Google Scholar paper downloader",
+      "enabled": true,
+      "schedule": "0 10 */2 * *",
+      "nextRun": "2026-02-02T10:00:00Z",
+      "lastRun": "2026-01-31T10:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d956ff2e-f13f-43b4-b183-6c2d935969e6",
+      "name": "AI Trending News (Every 2 Days)",
+      "enabled": true,
+      "schedule": "0 10 */2 * *",
+      "nextRun": "2026-02-02T10:00:00Z",
+      "lastRun": "2026-01-31T10:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "32be23fd-3c11-4303-8ee4-afe0653ee963",
+      "name": "Coin Bureau video checker",
+      "enabled": true,
+      "schedule": "0 12 */3 * *",
+      "nextRun": "2026-02-04T12:00:00Z",
+      "lastRun": "2026-02-01T12:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ed948746-9691-4cee-ad0b-5abdfb7788eb",
+      "name": "Midweek Confidence Boost",
+      "enabled": true,
+      "schedule": "0 12 * * 3",
+      "nextRun": "2026-02-04T12:00:00Z"
+    },
+    {
+      "id": "bf575c47-ccb0-4ba6-b4c9-003a9ec25b53",
+      "name": "Friday Happiness Check",
+      "enabled": true,
+      "schedule": "0 18 * * 5",
+      "nextRun": "2026-02-06T18:00:00Z"
+    },
+    {
+      "id": "a065308a-9a86-4a78-a450-308389401524",
+      "name": "Weekend Contract Hunt",
+      "enabled": true,
+      "schedule": "0 9 * * 6",
+      "nextRun": "2026-02-07T09:00:00Z"
+    },
+    {
+      "id": "623afb8e-bd44-4ebf-9f60-74f58028f3b3",
+      "name": "Sunday Week Planning",
+      "enabled": true,
+      "schedule": "0 19 * * 0",
+      "nextRun": "2026-02-08T19:00:00Z",
+      "lastRun": "2026-02-01T19:00:00Z",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "0f50558e-4433-4000-9ab7-11be817366ec",
+      "name": "ML Weekly Deep-Dive",
+      "enabled": true,
+      "schedule": "0 20 * * 0",
+      "nextRun": "2026-02-08T20:00:00Z",
+      "lastRun": "2026-02-01T20:00:00Z",
+      "lastStatus": "ok"
+    }
+  ]
+}
